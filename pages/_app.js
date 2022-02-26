@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import {Head} from 'next/head'
+=======
+import Head from 'next/head'
+>>>>>>> 78223b2024e9bcded738ebec273ad46175b07eb7
 import Navigation from '../components/Navigation'
 
 function MyApp({ Component, pageProps }) {
