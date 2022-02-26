@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navigation from '../components/Navigation'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <div className='container'>
+        <Navigation />
         <main>
           <Component {...pageProps} />
         </main>
